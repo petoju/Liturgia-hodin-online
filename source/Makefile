@@ -1,6 +1,6 @@
 -include config.mk
 
-CXXFLAGS ?= -Wall -W -DMODEL_SELECTED_IN_MAKEFILE -DMODEL_linux_citania -Wno-unknown-pragmas
+CXXFLAGS ?= -Wall -W -DMODEL_SELECTED_IN_MAKEFILE -DMODEL_linux_commandline -Wno-unknown-pragmas
 TARGET ?= ../l.cgi
 
 SRCS = \
